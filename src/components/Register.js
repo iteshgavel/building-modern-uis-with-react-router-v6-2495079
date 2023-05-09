@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-export default function Register() {
+const Register = () => {
   const emailRef = useRef(null);
 
   function handleSubmit(event) {
@@ -25,3 +25,5 @@ export default function Register() {
     </div>
   );
 }
+
+export default Register;
