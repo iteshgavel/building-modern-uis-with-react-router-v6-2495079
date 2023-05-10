@@ -3,9 +3,9 @@ import { useRef } from "react";
 const Register = () => {
   const emailRef = useRef(null);
 
-  function handleSubmit(event) {
+  const handleSubmit = (event) => {
     event.preventDefault();
-  }
+  };
 
   return (
     <div className="container">
@@ -24,6 +24,6 @@ const Register = () => {
       </form>
     </div>
   );
-}
+};
 
 export default Register;
