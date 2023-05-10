@@ -1,4 +1,4 @@
-export default function About() {
+const About = () => {
   return (
     <div className="container">
       <h1>Technology and Business Solutions</h1>
@@ -18,4 +18,6 @@ export default function About() {
       </p>
     </div>
   );
-}
+};
+
+export default About;
